@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <main class="container bg-danger">
+        <div class="d-flex justify-content-center gap-5  p-5">
+
+            <div class="card  p-4 d-flex    justify-content-center">
+                <img width="200" id="showİmg1" src="./img/w.png"
+                    src=" https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000043292/91e382e3e87726746dc714d3cab616a57ead6d797cff8c2f757b448534ce7cf4    "
+                    alt="pokemon" />
+
+
+                <div class="card-body">
+                    <h5 class="card-title  text-center  h2 " id="showResult1">ME</h5>
+                    <p class="card-text  h3 text-center" id="showPoint1">0</p>
+                </div>
+            </div>
+
+
+            <div class="display-1">VS</div>
+
+
+            <div class="card  p-5">
+                <img width="200" id="showİmg2" src="./img/w.png"
+                    src="  https://www.pokemon.com/static-assets/app/static3/img/og-default-image.jpeg   "
+                    alt="pokemon" />
+
+
+                <div class="card-body">
+                    <h5 class="card-title  text-center  h2 " id="showResult2">COMP</h5>
+                    <p class="card-text  h3 text-center" id="showPoint2">0</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <audio controls id="music">
+        <source src="./music/cruising-down-8bit-lane-159615.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <style>
+        #music {
+            display: none;
+        }
+    </style>
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
